@@ -1,7 +1,7 @@
 {
   "name": "kurdish-numbers-to-words",
-  "version": "1.0.0",
-  "description": "Convert Kurdish numbers to words ",
+  "version": "1.0.1",
+  "description": "Convert numbers to Kurdish words",
   "main": "index.js",
   "type": "module",
   "scripts": {

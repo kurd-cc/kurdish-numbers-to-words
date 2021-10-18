@@ -1,6 +1,6 @@
 # Kurdish Numbers to Words
 
-A NPM package converts the Kurdish numbers to words (Kurmanji).
+A NPM package converts the numbers to Kurdish (Kurmanji) words.
 <br>
 https://www.npmjs.com/package/kurdish-numbers-to-words
 <br>
