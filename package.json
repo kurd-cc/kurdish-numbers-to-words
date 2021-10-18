@@ -1,0 +1,32 @@
+{
+  "name": "kurdish-numbers-to-words",
+  "version": "1.0.0",
+  "description": "Convert Kurdish numbers to words ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kurd-cc/kurdish-numbers-to-words.git"
+  },
+  "keywords": [
+    "kurdish",
+    "kurmanji",
+    "kmr",
+    "numbers",
+    "words",
+    "converter",
+    "language"
+  ],
+  "author": "Jagar Yousef <jagar.yousef@gmail.com> (jagar.me)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kurd-cc/kurdish-numbers-to-words/issues"
+  },
+  "homepage": "https://github.com/kurd-cc/kurdish-numbers-to-words#readme",
+  "devDependencies": {
+    "mocha": "^9.1.3"
+  }
+}
