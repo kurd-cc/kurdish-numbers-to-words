@@ -350,7 +350,7 @@ export default class KurdishKurmanjiNumbersToWords {
         if (n === '1000000000'){
             return 'milyar'
         }else{
-            return n.split('').map((current_number) => KurdishNumbersToWords._calculate_ones(current_number)).join(' ')
+            return n.split('').map((current_number) => KurdishKurmanjiNumbersToWords._calculate_ones(current_number)).join(' ')
         }
     }
 

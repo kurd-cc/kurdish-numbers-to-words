@@ -1,6 +1,6 @@
 {
   "name": "kurdish-numbers-to-words",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Convert numbers to Kurdish words",
   "main": "Kurmanji.js",
   "type": "module",
