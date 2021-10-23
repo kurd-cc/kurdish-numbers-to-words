@@ -1,4 +1,4 @@
-export default class KurdishNumbersToWords {
+export default class KurdishKurmanjiNumbersToWords {
 
     static convert(number){
         if (typeof number !== 'number'){

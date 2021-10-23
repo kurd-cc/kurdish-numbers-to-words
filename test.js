@@ -1,5 +1,5 @@
-import KurdishNumbersToWords from "./index.js";
-import KurdishSoraniNumbersToWords from "./sorani_index.js";
+import KurdishNumbersToWords from "./Kurmanji.js";
+import KurdishSoraniNumbersToWords from "./Sorani";
 
 describe('Ones', function() {
     describe('#convert()', function() {
@@ -218,11 +218,11 @@ describe('large-numbers', function() {
 });
 
 //----------------------------------------------------------------------------------------------------------------------------------
-//                                               below is sorani
+//                                               below is Sorani
 //----------------------------------------------------------------------------------------------------------------------------------
 
 //----------------------------------------------------------------------------------------------------------------------------------
-//                                               sorani version
+//                                               Sorani version
 //----------------------------------------------------------------------------------------------------------------------------------
 describe('Ones', function() {
     describe('#convert()', function() {

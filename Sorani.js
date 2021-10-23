@@ -1,4 +1,4 @@
-//sorani version of numbers-to-kurdish-words
+//Sorani version of numbers-to-kurdish-words
 
 export default class KurdishSoraniNumbersToWords {
 
@@ -386,3 +386,6 @@ export default class KurdishSoraniNumbersToWords {
         return ' و '
     }
 }
+
+
+console.log(KurdishSoraniNumbersToWords.convert(9876))

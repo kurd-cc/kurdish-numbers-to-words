@@ -1,8 +1,8 @@
 {
   "name": "kurdish-numbers-to-words",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "Convert numbers to Kurdish words",
-  "main": "index.js",
+  "main": "Kurmanji.js",
   "type": "module",
   "scripts": {
     "test": "mocha"
@@ -14,6 +14,8 @@
   "keywords": [
     "kurdish",
     "kurmanji",
+    "Sorani",
+    "ckb",
     "kmr",
     "numbers",
     "words",

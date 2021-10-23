@@ -1,13 +1,14 @@
 # Kurdish Numbers to Words
 
-A NPM package converts the numbers to Kurdish (Kurmanji) words.
+A NPM package converts the numbers to Kurdish (Kurmanji - Sorani) words.
 <br>
 https://www.npmjs.com/package/kurdish-numbers-to-words
 <br>
 <br>
 Example:
 ````text
-187262 ==> `sed û heştê û heft hezar û dused û şêst û du`
+187262 ==> `sed û heştê û heft hezar û dused û şêst û du` //Kurmanji
+187262 ==> `سەد و هەشتا و حەوت هەزار و دووسەد و شەست و دوو` //Sorani
 ````
 
 ### Installation:
@@ -22,19 +23,24 @@ yarn add kurdish-numbers-to-words
 
 ### Usage:
 1. Import the package:
+
 ````javascript
-import KurdishNumbersToWords from 'kurdish-numbers-to-words'
+import KurdishKurmanjiNumbersToWords from 'kurdish-numbers-to-words/Kurmanji.js'
+import KurdishSoraniNumbersToWords from 'kurdish-numbers-to-words/Sorani.js'
 ````
 2. Use it: 
 ````javascript
-let numberWords = KurdishNumbersToWords.convert(9876)
+let numberWords = KurdishKurmanjiNumbersToWords.convert(9876)
+let numberWordsSorani = KurdishSoraniNumbersToWords.convert(9876)
 console.log(numberWords)
+console.log(numberWordsSorani)
 ````
 
 Result:<br>
 
 ````text
 neh hezar û heştsed û heftê û şeş
+نۆ هەزار و هەشتسەد و حەفتا و شەش
 ````
 
 ### Test:
@@ -55,5 +61,6 @@ It depends on the following rules:
 - One million is milyon.
 - From one milyon to less than one billion works the same way as thousands (the 5's rule included)
 - One billion is milyar
-- More than 1 billion will be spelled a number by number<br>
+- More than 1 billion will be spelled a number by number
+- The same rules applies for the Sorani version <br>
 Most of these rules are from: [Of Languages and Numbers](https://www.languagesandnumbers.com/how-to-count-in-northern-kurdish/en/kmr/)
