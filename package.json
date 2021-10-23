@@ -5,8 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "mocha",
-    "soraniTest": "mocha"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
